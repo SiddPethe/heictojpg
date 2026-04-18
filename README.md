@@ -1,4 +1,4 @@
-# HEIC to JPG Converter
+ea# HEIC to JPG Converter
 Python Script converts HEIC Images to JPG Format. EXIF Metadata is preserved.
 
 ## Description
@@ -7,14 +7,19 @@ Python Script converts HEIC Images to JPG Format. EXIF Metadata is preserved.
 * Conversion quality is defaulted to 95.
 
 ## Usage
-* Install dependencies mentioned in requirements.txt
-* Run script.
+:warning: Perfom actions on Windows only
+* Install dev dependency "Pyinstaller" in venv via 
+```pipenv install --dev pyinstaller```
+* Run pyinstaller to make a .exe file in folder (portable version)
+```pyinstaller --onedir --name heic2jpg app.py```
+* Portable version found in folder dist/heic2jpg -> move folder heic2jpg where required.
 
 ## Packages required.
 * colorama
 * pillow
 * pillow_heif
 * tqdm
+* pyinstaller (dev) -> to create .exe
 
 ## Licence
 MIT Free to use as you please. Open source.

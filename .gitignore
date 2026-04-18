@@ -9,6 +9,11 @@ Pipfile
 # VS Code
 .vscode
 
+#Ignore Build & Dist folders
+build
+dist
+*.spec
+
 ### Windows ###
 # Windows thumbnail cache files
 Thumbs.db
@@ -27,5 +32,6 @@ $RECYCLE.BIN/
 *.msix
 *.msm
 *.msp
+
 # Windows shortcuts
 *.lnk
