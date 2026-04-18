@@ -1,7 +1,7 @@
 # Python + Pipfile
 __pycache__
-Pipfile.lock
-Pipfile
+# Pipfile.lock
+# Pipfile
 
 # MacOS
 .DS_Store
